@@ -1,0 +1,14 @@
+.btns img {
+  height: 64px;
+  width: 64px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+.btns {
+  margin: 0 auto;
+  width: 64*3px;
+}
