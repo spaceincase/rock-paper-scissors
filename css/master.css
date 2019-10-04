@@ -1,10 +1,17 @@
-.btns img {
+.btn {
   height: 64px;
   width: 64px;
   padding-left: 8px;
   padding-right: 8px;
   border-style: solid;
   border-color: #f2ff00;
+  border-width: 2px;
+  transition: all 0.1s ease;
+}
+
+#compSelecImg {
+  border-color: red;
+  border-style: solid;
   border-width: 2px;
 }
 
@@ -15,7 +22,7 @@ h1, h2, h3 {
 .btns {
   margin: 0 auto;
   width: 260px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .compSelection {
@@ -28,4 +35,13 @@ h1, h2, h3 {
   width: 64px;
   display: block;
   margin: 0 auto;
+}
+
+.message {
+  height: 19px;
+}
+
+.animated {
+  border-color: #32a83e;
+  transform: scale(1.1);
 }
